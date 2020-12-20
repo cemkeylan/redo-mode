@@ -1,0 +1,6 @@
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+*.elc
+.\#*

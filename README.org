@@ -1,0 +1,21 @@
+#+TITLE: redo-mode
+#+AUTHOR: Cem Keylan
+
+Simple Emacs major-mode package for the redo build system.
+
+* Installation
+
+Copy =redo-mode.el= to your load path and use require to load it.
+
+#+begin_src elisp
+  (require 'redo-mode)
+#+end_src
+
+You can also use =straight.el= / =use-package= in order to use this mode
+/hassle-free/ on your system.
+
+#+begin_src elisp
+  (use-package redo-mode
+    :straight (:host github :repo "cemkeylan/redo-mode")
+    :mode "\\.do\\'")
+#+end_src
